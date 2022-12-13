@@ -13,6 +13,13 @@
 		2E9A1107291F803700E91DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A1105291F803700E91DED /* Main.storyboard */; };
 		2E9A1109291F803800E91DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A1108291F803800E91DED /* Assets.xcassets */; };
 		2E9A110C291F803800E91DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A110A291F803800E91DED /* LaunchScreen.storyboard */; };
+		2E9A1114291F951C00E91DED /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A1113291F951C00E91DED /* CurrentWeather.swift */; };
+		2E9A1116291F984300E91DED /* CurrentWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A1115291F984300E91DED /* CurrentWeatherModel.swift */; };
+		2EF6E5DD29216BD200310927 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6E5DC29216BD200310927 /* JSONDownloader.swift */; };
+		2EF6E5DF2921701A00310927 /* WheatherAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6E5DE2921701A00310927 /* WheatherAPIError.swift */; };
+		2EF6E5E12921791E00310927 /* WheatherApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6E5E02921791E00310927 /* WheatherApiClient.swift */; };
+		2EF6E5E329217BA300310927 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6E5E229217BA300310927 /* Coordinate.swift */; };
+		2EF6E5E52921899C00310927 /* Wheather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6E5E42921899C00310927 /* Wheather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		2E9A1108291F803800E91DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9A110B291F803800E91DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9A110D291F803800E91DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9A1113291F951C00E91DED /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		2E9A1115291F984300E91DED /* CurrentWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherModel.swift; sourceTree = "<group>"; };
+		2EF6E5DC29216BD200310927 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
+		2EF6E5DE2921701A00310927 /* WheatherAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAPIError.swift; sourceTree = "<group>"; };
+		2EF6E5E02921791E00310927 /* WheatherApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherApiClient.swift; sourceTree = "<group>"; };
+		2EF6E5E229217BA300310927 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		2EF6E5E42921899C00310927 /* Wheather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				2E9A1108291F803800E91DED /* Assets.xcassets */,
 				2E9A110A291F803800E91DED /* LaunchScreen.storyboard */,
 				2E9A110D291F803800E91DED /* Info.plist */,
+				2E9A1113291F951C00E91DED /* CurrentWeather.swift */,
+				2EF6E5E42921899C00310927 /* Wheather.swift */,
+				2E9A1115291F984300E91DED /* CurrentWeatherModel.swift */,
+				2EF6E5DC29216BD200310927 /* JSONDownloader.swift */,
+				2EF6E5DE2921701A00310927 /* WheatherAPIError.swift */,
+				2EF6E5E02921791E00310927 /* WheatherApiClient.swift */,
+				2EF6E5E229217BA300310927 /* Coordinate.swift */,
 			);
 			path = JsonApiHavaTahminUygulamasi;
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF6E5DD29216BD200310927 /* JSONDownloader.swift in Sources */,
 				2E9A1104291F803700E91DED /* ViewController.swift in Sources */,
 				2E9A1100291F803700E91DED /* AppDelegate.swift in Sources */,
+				2EF6E5E12921791E00310927 /* WheatherApiClient.swift in Sources */,
+				2E9A1116291F984300E91DED /* CurrentWeatherModel.swift in Sources */,
+				2EF6E5E52921899C00310927 /* Wheather.swift in Sources */,
+				2EF6E5E329217BA300310927 /* Coordinate.swift in Sources */,
+				2E9A1114291F951C00E91DED /* CurrentWeather.swift in Sources */,
+				2EF6E5DF2921701A00310927 /* WheatherAPIError.swift in Sources */,
 				2E9A1102291F803700E91DED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
